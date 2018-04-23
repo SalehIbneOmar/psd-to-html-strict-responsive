@@ -1,0 +1,1 @@
+# psd-to-html-strict-responsive
