@@ -1,0 +1,1068 @@
+/* PSD to HTML  CSS code */
+
+
+/* 
+Project name: PSD to WEB
+Author name: Saleh Ibne Omar.
+Code by: Saleh Ibne Omar.
+Site URI: www.tinyone.com
+Author URI: https://twitter.com/myself_saleh
+
+Description: This webpage is designed for practice purpose
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background: #f6f9f9;
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav a {
+    margin: 0;
+    padding: 0;
+}
+
+.nav img {
+    padding: 50px 0px;
+}
+
+.banner-section {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    overflow: hidden;
+    background: url("img/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.banner-content-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.heading {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px solid #15a4fa;
+}
+
+.heading h1 {
+    margin: 0;
+    padding-top: 180px;
+    text-align: center;
+    font-weight: 700px;
+    font-size: 95pt;
+    color: white;
+}
+
+.paragraph {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.paragraph p {
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-weight: 400px;
+    font-size: 15pt;
+    word-spacing: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.button-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.bttn {
+    width: 32%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 240px;
+}
+
+.call-to-action {
+    width: 100%;
+    margin: 0px;
+    padding: 10px 30px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #15a4fa;
+    border-radius: 3px;
+}
+
+.call-to-action:hover {
+    cursor: pointer;
+    background: #15a4fa;
+}
+
+.simple-pure-section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #f6f9f9;
+    float: left;
+    overflow: hidden;
+}
+
+.simple-pure-section-container {
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.title {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.title h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    color: #2d3950;
+    font-weight: 400px;
+    font-size: 32pt;
+    word-spacing: 2px;
+}
+
+.simple-pure-section-container p {
+    margin: 0;
+    padding-bottom: 80px;
+    color: #c8c9c9;
+    text-align: center;
+    font-size: 15pt;
+    word-spacing: 3px;
+    line-height: 28px;
+}
+
+.icon-section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.icon-section-container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.contents {
+    width: 33.33%;
+    margin: 0 auto;
+    padding: 0;
+    float: left;
+    overflow: hidden;
+}
+
+.ico {
+    margin: 0;
+    padding: 0;
+}
+
+.ico img {
+    padding-top: 60px;
+    margin: 0 auto;
+    display: block;
+}
+
+.texts {
+    margin: 0;
+    padding: 0;
+}
+
+.texts h3 {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #2d3950;
+    text-align: center;
+    word-spacing: 2px;
+}
+
+.texts p {
+    margin: 0;
+    padding-bottom: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #c8c9c9;
+    text-align: center;
+    word-spacing: 2px;
+}
+
+.gallery-section {
+    margin: 0;
+    padding-bottom: 75px;
+    background: #f6f9f9;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.gallery-section-container {
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+}
+
+.gallery-title {
+    width: 100%;
+    margin: 0;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.gallery-title h1 {
+    margin: 0;
+    text-align: center;
+    color: #2d3950;
+    font-weight: 700px;
+    font-size: 31pt;
+    word-spacing: 2px;
+}
+
+.gallery-title p {
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #c8c9c9;
+    font-size: 14pt;
+}
+
+.gallery-images {
+    margin: 0;
+    padding: 0;
+    width: 33.33%;
+    float: left;
+    overflow: hidden;
+}
+
+.gallery-images img {
+    width: 92%;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    display: block;
+}
+
+.contact-section {
+    margin: 0;
+    padding-bottom: 80px;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    background: url("img/contactsec.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.contact-section-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.contact-section-title {
+    margin: 0;
+    padding-top: 80px;
+}
+
+.contact-section-title h1 {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 14px;
+    text-align: center;
+    color: white;
+    font-size: 32pt;
+    word-spacing: 2px;
+}
+
+.contact-section-title p {
+    margin: 0;
+    padding-bottom: 50px;
+    width: 100%;
+    color: #c8c9c9;
+    word-spacing: 2px;
+    text-align: center;
+    font-size: 12pt;
+}
+
+.contact-form {
+    width: 45%;
+    margin: 0px auto;
+    padding: 0;
+}
+
+.form {
+    margin: 0;
+    padding: 0;
+    color: #c8c9c9;
+    word-spacing: 2px;
+}
+
+.username {
+    margin: 0 0 15px 0;
+    padding: 0px 6px;
+    width: 95%;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #c8c9c9;
+    border-radius: 3px;
+    color: #c8c9c9;
+}
+
+.email {
+    margin: 0;
+    padding: 0px 6px;
+    width: 95%;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #c8c9c9;
+    border-radius: 3px;
+    color: #c8c9c9;
+}
+
+.msg {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    padding: 0px 6px;
+    width: 95%;
+    height: 150px;
+    background: transparent;
+    border: 2px solid #c8c9c9;
+    border-radius: 3px;
+    color: #c8c9c9;
+}
+
+.chk {
+    margin-top: 26px;
+}
+
+.submit {
+    float: right;
+    margin-top: 8px;
+    margin-right: 14px;
+    background: transparent;
+    color: white;
+    font-size: 22px;
+    border: 2px solid #15a4fa;
+    width: 24%;
+    height: 50px;
+    border-radius: 3px;
+}
+
+.submit:hover {
+    background: #15a4fa;
+    cursor: pointer;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    background: #f6f9f9;
+}
+
+.footer-container {
+    width: 72%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.copy-right {
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    overflow: hidden;
+}
+
+.copy-right p {
+    margin: 0;
+    padding: 40px 0;
+    color: #c8c9c9;
+}
+
+.social-links {
+    width: 60%;
+    float: left;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.social-links a {
+    float: right;
+    margin: 0;
+    padding: 40px 5px;
+}
+
+.social-links img {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* media query */
+
+@media all and (max-width: 1028px) {
+    .simple-pure-section-container {
+        width: 86%;
+    }
+}
+
+@media all and (max-width: 958px) {
+    .simple-pure-section-container {
+        width: 88%;
+    }
+}
+
+@media all and (max-width: 932px) {
+    .simple-pure-section-container {
+        width: 90%;
+    }
+}
+
+@media all and (max-width: 916px) {
+    .simple-pure-section-container {
+        width: 92%;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .nav-container {
+        width: 80%;
+    }
+    .nav img {
+        padding: 60px 30px;
+        width: 18%;
+    }
+    .heading h1 {
+        padding-top: 140px;
+        font-size: 59pt;
+        color: white;
+    }
+    .paragraph p {
+        margin: 0;
+        font-size: 12pt;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .bttn {
+        width: 36%;
+        padding-top: 38px;
+        padding-bottom: 238px;
+    }
+    .call-to-action {
+        padding: 12px 28px;
+    }
+    .title h1 {
+        padding-top: 65px;
+        padding-bottom: 30px;
+        color: #2d3950;
+        font-size: 25pt;
+    }
+    .simple-pure-section-container p {
+        padding-bottom: 90px;
+        font-size: 12pt;
+        line-height: 24px;
+    }
+    .icon-section-container {
+        width: 82%;
+    }
+    .ico img {
+        padding-top: 62px;
+        width: 30%;
+    }
+    .texts h3 {
+        font-size: 12pt;
+    }
+    .texts p {
+        font-size: 12pt;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .gallery-section-container {
+        width: 84%;
+    }
+    .gallery-title {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .gallery-title h1 {
+        font-size: 25pt;
+    }
+    .gallery-title p {
+        padding-top: 22px;
+        padding-bottom: 30px;
+        font-size: 12pt;
+    }
+    .gallery-images img {
+        width: 95%;
+        padding-bottom: 16px;
+    }
+    .contact-section-container {
+        width: 84%;
+    }
+    .contact-section-title {
+        padding-top: 58px;
+    }
+    .contact-section-title h1 {
+        padding-bottom: 12px;
+        font-size: 26pt;
+    }
+    .contact-section-title p {
+        padding-bottom: 40px;
+        font-size: 10pt;
+    }
+    .form {
+        font-size: 11pt;
+    }
+    .chk {
+        margin-top: 18px;
+    }
+    .submit {
+        margin-top: 7px;
+        margin-right: 4px;
+        font-size: 16px;
+        width: 28%;
+        height: 40px;
+    }
+    .footer-container {
+        width: 65%;
+    }
+    .copy-right {
+        width: 35%;
+    }
+    .copy-right p {
+        font-size: 10pt;
+    }
+    .social-links {
+        width: 65%;
+    }
+    .social-links a {
+        float: right;
+        margin: 0;
+        padding: 40px 2px;
+    }
+    .social-links img {
+        width: 80%;
+    }
+}
+
+@media all and (max-width: 830px) {
+    .nav-container {
+        width: 70%;
+    }
+    .nav img {
+        padding: 50px 20px;
+        width: 22%;
+    }
+    .heading h1 {
+        padding-top: 120px;
+        font-size: 58pt;
+    }
+    .bttn {
+        width: 40%;
+        padding-bottom: 220px;
+    }
+    .icon-section-container {
+        width: 84%;
+    }
+    .title {
+        width: 72%;
+    }
+    .ico img {
+        padding-top: 62px;
+        width: 28%;
+    }
+    .texts h3 {
+        padding: 16px 14px;
+    }
+    .gallery-section-container {
+        width: 86%;
+    }
+    .gallery-images img {
+        padding-bottom: 14px;
+    }
+}
+
+@media all and (max-width: 806px) {
+    .title h1 {
+        padding-top: 53px;
+        font-size: 21pt;
+    }
+}
+
+@media all and (max-width: 740px) {
+    .nav-container {
+        width: 82%;
+    }
+    .nav img {
+        padding: 45px 50px;
+        width: 20%;
+    }
+    .heading h1 {
+        padding-top: 100px;
+        font-size: 57pt;
+    }
+    .paragraph p {
+        font-size: 11pt;
+        padding-top: 22px;
+        padding-bottom: 10px;
+    }
+    .bttn {
+        width: 42%;
+        padding-bottom: 180px;
+    }
+    .title h1 {
+        padding-top: 58px;
+        font-size: 22pt;
+    }
+    .simple-pure-section-container p {
+        padding-bottom: 80px;
+        font-size: 11pt;
+        line-height: 22px;
+    }
+    .icon-section-container {
+        width: 86%;
+    }
+    .ico img {
+        padding-top: 56px;
+        width: 28%;
+    }
+    .texts h3 {
+        font-size: 11pt;
+    }
+    .texts p {
+        font-size: 11pt;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .gallery-section {
+        padding-bottom: 55px;
+    }
+    .gallery-section-container {
+        width: 88%;
+    }
+    .gallery-title {
+        padding-top: 45px;
+        padding-bottom: 30px;
+    }
+    .gallery-title h1 {
+        font-size: 22pt;
+    }
+    .gallery-title p {
+        padding-top: 18px;
+        padding-bottom: 24px;
+        font-size: 11pt;
+    }
+    .gallery-images img {
+        width: 96%;
+        padding-bottom: 10px;
+    }
+    .contact-section-container {
+        width: 86%;
+    }
+    .contact-section-title {
+        padding-top: 50px;
+    }
+    .contact-section-title h1 {
+        padding-bottom: 10px;
+        font-size: 22pt;
+    }
+    .form {
+        font-size: 10pt;
+    }
+    .chk {
+        margin-top: 14px;
+    }
+    .submit {
+        margin-top: 6px;
+        margin-right: 0px;
+        font-size: 14px;
+        width: 32%;
+        height: 35px;
+    }
+    .footer-container {
+        width: 72%;
+    }
+    .copy-right p {
+        font-size: 9pt;
+    }
+}
+
+@media all and (max-width: 720px) {
+    .bttn {
+        width: 48%;
+    }
+}
+
+@media all and (max-width: 712px) {
+    .title h1 {
+        padding-top: 51px;
+        font-size: 20pt;
+    }
+}
+
+@media all and (max-width: 671px) {
+    .bttn {
+        width: 45%;
+    }
+    .gallery-images {
+        width: 50%;
+    }
+    .gallery-images img {
+        width: 96%;
+        padding-bottom: 13px;
+    }
+}
+
+@media all and (max-width: 620px) {
+    .nav-container {
+        width: 86%;
+    }
+    .nav img {
+        padding: 35px 30px;
+        width: 24%;
+    }
+    .heading h1 {
+        padding-top: 80px;
+        font-size: 53pt;
+    }
+    .paragraph p {
+        font-size: 9pt;
+        padding-top: 20px;
+        padding-bottom: 8px;
+    }
+    .bttn {
+        width: 50%;
+        padding-bottom: 140px;
+    }
+    .call-to-action {
+        font-size: 14px !important;
+    }
+    .title h1 {
+        padding-top: 50px;
+        font-size: 18pt;
+    }
+    .simple-pure-section-container p {
+        padding-bottom: 60px;
+        font-size: 10pt;
+        line-height: 18px;
+    }
+    .icon-section-container {
+        width: 90%;
+    }
+    .ico img {
+        padding-top: 50px;
+        width: 30%;
+    }
+    .texts h3 {
+        font-size: 10pt;
+    }
+    .texts p {
+        font-size: 10pt;
+        padding-left: 28px;
+        padding-right: 28px;
+        padding-bottom: 50px;
+    }
+    .gallery-section {
+        padding-bottom: 50px;
+    }
+    .gallery-section-container {
+        width: 92%;
+    }
+    .gallery-title {
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+    .gallery-title h1 {
+        font-size: 18pt;
+    }
+    .gallery-title p {
+        padding-top: 16px;
+        padding-bottom: 20px;
+        font-size: 10pt;
+    }
+    .contact-section-container {
+        width: 90%;
+    }
+    .contact-section-title {
+        padding-top: 40px;
+    }
+    .contact-section-title h1 {
+        padding-bottom: 10px;
+        font-size: 18pt;
+    }
+    .contact-section-title p {
+        padding-bottom: 36px;
+        font-size: 9pt;
+    }
+    .form {
+        font-size: 9pt;
+    }
+    .submit {
+        font-size: 12px;
+        width: 32%;
+        height: 32px;
+    }
+    .chk {
+        margin-top: 12px;
+    }
+    .footer-container {
+        width: 76%;
+    }
+    .copy-right p {
+        font-size: 8pt;
+    }
+}
+
+@media all and (max-width: 555px) {
+    .heading h1 {
+        padding-top: 50px;
+        font-size: 52pt;
+    }
+    .paragraph p {
+        font-size: 9pt;
+        padding-top: 18px;
+        padding-bottom: 7px;
+    }
+    .bttn {
+        width: 50%;
+        padding-bottom: 110px;
+    }
+    .contact-section {
+        padding-bottom: 46px;
+    }
+    .username {
+        padding: 0px 4px;
+        width: 98%;
+        height: 30px;
+    }
+    .email {
+        padding: 0px 4px;
+        width: 98%;
+        height: 30px;
+    }
+    .msg {
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+        padding: 0px 4px;
+        width: 98%;
+        height: 100px;
+    }
+    .chk {
+        margin-top: 0px;
+        float: left;
+    }
+    .submit {
+        float: left;
+        margin-top: 30px;
+        margin-right: 0px;
+        font-size: 13px;
+        width: 48%;
+        height: 30px;
+    }
+    .footer-container {
+        width: 82%;
+    }
+    .copy-right p {
+        font-size: 8pt;
+    }
+}
+
+@media all and (max-width: 510px) {
+    .nav-container {
+        width: 90%;
+    }
+    .nav img {
+        width: 30%;
+        padding: 26px 14px;
+    }
+    .banner-content-container {
+        width: 80%;
+    }
+    .heading h1 {
+        padding-top: 80px;
+        font-size: 38pt;
+    }
+    .simple-pure-section-container {
+        width: 92%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .contact-form {
+        width: 88%;
+    }
+    .username {
+        width: 97%;
+    }
+    .email {
+        width: 97%;
+    }
+    .msg {
+        width: 97%;
+    }
+    .submit {
+        margin-top: 15px;
+        margin-right: 0px;
+        font-size: 12px;
+        width: 100%;
+        height: 40px;
+    }
+}
+
+@media all and (max-width: 370px) {
+    .nav-container {
+        width: 80%;
+    }
+    .nav img {
+        width: 50%;
+        padding: 10px 62px;
+    }
+    .banner-content-container {
+        width: 95%;
+    }
+    .heading h1 {
+        padding-top: 50px;
+        font-size: 36pt;
+    }
+    .paragraph p {
+        font-size: 8pt;
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+    .bttn {
+        width: 38%;
+        padding-top: 28px;
+        padding-bottom: 55px;
+    }
+    .call-to-action {
+        font-size: 12px !important;
+    }
+    .simple-pure-section-container {
+        width: 94%;
+    }
+    .title h1 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size: 15pt;
+    }
+    .simple-pure-section-container p {
+        padding-bottom: 26px;
+        text-align: center;
+        font-size: 9pt;
+        word-spacing: 3px;
+    }
+    .icon-section-container {
+        width: 60%;
+    }
+    .contents {
+        width: 100%;
+    }
+    .ico img {
+        padding-top: 32px;
+    }
+    .texts p {
+        padding-bottom: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 15px;
+    }
+    .gallery-section {
+        padding-bottom: 28px;
+    }
+    .gallery-section-container {
+        width: 90%;
+    }
+    .gallery-title {
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .gallery-title h1 {
+        font-size: 15pt;
+        word-spacing: 2px;
+    }
+    .gallery-images {
+        width: 100%;
+    }
+    .contact-section-container {
+        width: 95%;
+    }
+    .contact-section-title {
+        padding-top: 28px;
+    }
+    .contact-section-title h1 {
+        font-size: 16pt;
+    }
+    .contact-section-title p {
+        padding-bottom: 28px;
+        font-size: 9pt;
+    }
+    .footer-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .copy-right {
+        width: 100%;
+        float: left;
+        overflow: hidden;
+    }
+    .copy-right p {
+        padding: 30px 10px;
+        font-size: 10pt;
+    }
+    .social-links {
+        width: 100%;
+        float: left;
+        overflow: hidden;
+        padding-bottom: 40px;
+    }
+    .social-links a {
+        float: left;
+        padding: 10px 5px;
+    }
+}
